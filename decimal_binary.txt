@@ -1,0 +1,7 @@
+// decimal to binary 
+int val = 125;
+string binary = bitset<8>(val).to_string(); 
+
+// binary to decimal
+string bin("1101");
+int dec = stoi(bin, nullptr, 2); 
